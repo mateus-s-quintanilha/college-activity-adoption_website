@@ -3,4 +3,4 @@
 ### Usabilidade, desenvolvimento web, mobile e jogos
 
 Link da atividade hospedado no vercel:
-https://college-activity-adoption-website-udcf.vercel.app/
+<a href="https://college-activity-adoption-website-udcf.vercel.app/" target="_blank">https://college-activity-adoption-website-udcf.vercel.app/</a>
