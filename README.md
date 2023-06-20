@@ -1,13 +1,6 @@
-# Getting Started with Create React App
+# Atividade Acadêmica IBMR - 3° semestre 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Usabilidade, desenvolvimento web, mobile e jogos
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+Link da atividade hospedado no vercel:
+https://college-activity-adoption-website-udcf.vercel.app/
