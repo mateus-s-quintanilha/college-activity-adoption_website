@@ -63,3 +63,13 @@
 .header-nav > span:hover {
     text-decoration: underline;
 }
+
+
+@media screen and (max-width: 768px) {
+    .header-nav {
+        gap: 1rem;
+    }
+    .header-nav > span {
+        font-size: .8rem;
+    }
+}

@@ -168,7 +168,7 @@ export default function Home() {
 
             <div href='#lista' className='CardsWrapper'>
                 {listaAnimais.map((item) => 
-                  <Link to={`/details/${item.id}`}>
+                  <Link style={{textDecoration: "none"}} to={`/details/${item.id}`}>
                     <Card item={item} />
                   </Link>
                 )}
