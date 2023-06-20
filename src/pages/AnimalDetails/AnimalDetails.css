@@ -1,0 +1,85 @@
+.animal-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    flex: 1;
+    height: 80vh;
+    width: 80%;
+    margin-left: auto; /* Margem esquerda automática */
+    margin-right: auto;
+}
+  
+.animal-image {
+    flex: 0 0 500px;
+    margin-right: 20px;
+}
+  
+.animal-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+  
+.animal-info {
+    flex: 1;
+}
+  
+.animal-info h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+  
+.animal-type {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+  
+.animal-breed {
+    color: #888;
+    margin-bottom: 10px;
+}
+  
+.animal-age {
+    margin-bottom: 10px;
+}
+  
+.animal-caption {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+  
+.animal-description {
+    margin-bottom: 10px;
+}
+  
+.animal-location {
+    font-weight: bold;
+}
+  
+
+
+@media screen and (max-width: 1100px) {
+    .animal-image {
+        flex: 0 0 300px;
+    }
+  
+}
+
+@media screen and (max-width: 768px) {
+    .animal-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        /* flex: 1; */
+        height: auto;
+        width: 90%;
+        margin-left: auto; /* Margem esquerda automática */
+        margin-right: auto;
+    }
+  
+}
+

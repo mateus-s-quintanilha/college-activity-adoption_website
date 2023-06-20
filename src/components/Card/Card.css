@@ -1,0 +1,70 @@
+.card {
+    width: 300px;
+    cursor: pointer;
+    color: #000;
+    justify-self: center; /* Centraliza horizontalmente o item dentro do grid */
+    align-self: center;
+}
+
+
+
+.imagem-cachorro {
+    background-size: cover;
+    /* max-width: 200px; */
+    min-height: 200px;
+    max-height: 250px;
+    width: 100%;
+    border-radius: .5rem;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .imagem-cachorro {
+    transform: scale(1.03);
+    margin-bottom: 1rem;
+}
+
+.nome {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.legeda-card {
+    /* display: none;
+    transition: opacity 0.3s ease; */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    /* height: 0; */
+}
+
+.legeda-card p {
+    opacity: .9;
+}
+
+.legeda-card div {
+    margin-top: 12px; 
+    opacity: .7;
+}
+
+.card:hover .legeda-card {
+    opacity: 1;
+    /* height: auto; */
+}
+
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 180px;
+    }
+
+    .imagem-cachorro {
+        min-height: 120px;
+        max-height: 200px;
+    }
+    .nome {
+        font-size: 1.2rem;
+    }
+}
+
+
+  
